@@ -1,0 +1,82 @@
+body {
+  font-family: 'Khula', sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+a:active, 
+a:hover, 
+a {
+  text-decoration: none;
+  transition: 500ms ease-in-out;
+  color: #2e2b31;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.list__wrapper {
+  background-color: #fff;
+  width: 60%;
+  line-height: 2;
+  border-radius: 20px;
+  margin: 10px 0;
+  padding: 0 30px;
+  transition: 500ms ease-in-out;
+  border: 2px solid #e5989b;
+}
+
+.list__wrapper i {
+  display: none;
+}
+
+.list__wrapper:hover {
+  width: 80%;
+  background-color: #e5989b;
+  transition: 500ms ease-in-out;
+  color: #fff;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.list__wrapper:hover a{
+  transition: 500ms ease-in-out;
+  color: #fff;
+  justify-content: space-between;
+  letter-spacing: 5px;
+}
+
+.list__wrapper:hover i{
+  display: inline-block;
+  
+}
+
+.list__link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+}
+
+@media (max-width: 820px) {
+  .list {
+    padding: 0 10px;
+    width: 100%;
+  }
+  .list__link {
+    font-size: 20px;
+  }
+  .list__wrapper:hover {
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+  }
+}
