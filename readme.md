@@ -1,4 +1,4 @@
-#### Repository for practiceRepository for practice:
+#### Repository for practice:
 - Vanilla CSS
 - Vanilla JS
 - Vanilla HTML
