@@ -3,4 +3,4 @@
 - Vanilla JS
 - Vanilla HTML
 
-[DEMO](https://potatbut.github.io/practise/ "DEMO")
+[DEMO](https://potatbut.github.io/practice/ "DEMO")
